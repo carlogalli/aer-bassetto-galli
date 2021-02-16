@@ -7,9 +7,9 @@ The file `publication-code.jl` makes and saves Figures 1, 2 and 3 from the paper
 - Bassetto, Marco, and Carlo Galli. 2019. ["Is Inflation Default? The Role of Information in Debt Crises."](https://www.aeaweb.org/articles?id=10.1257/aer.20170721) American Economic Review, 109 (10): 3556-84.
 
 To run the code
-- download this repository in a folder
+- download all files of this repository in a folder
 - open a julia REPL
-- make sure the working directory is the repo folder
+- make sure the working directory is set to your local repository folder
 - run `include("publication-code.jl")`
 
 
