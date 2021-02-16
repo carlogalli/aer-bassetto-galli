@@ -8,10 +8,10 @@ The file `publication-code.jl` makes and saves Figures 1, 2 and 3 from the paper
 
 To run the code
 - download this repository in a folder
-- open a julia REPL and make sure the working directory is the repo folder
-- in the julia REPL, use the command
+- open a julia REPL
+- make sure the working directory is the repo folder
+- run `include("publication-code.jl")`
 
-`include("publication-code.jl")`
 
 ### Figure 1
 
