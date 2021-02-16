@@ -10,6 +10,7 @@ To run the code
 - download this repository in a folder
 - open a julia REPL and make sure the working directory is the repo folder
 - in the julia REPL, use the command
+
 `include("publication-code.jl")`
 
 ### Figure 1
