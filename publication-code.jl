@@ -2,9 +2,8 @@
 #= Setup Model Structure and Functions =#
 
 # Define directory, load packages
-currentdir = pwd()
 using Pkg
-Pkg.activate(currentdir)
+Pkg.activate(".")
 Pkg.instantiate()
 using Distributions, PyPlot, Roots
 
