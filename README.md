@@ -12,6 +12,7 @@ To run the code
 - make sure the working directory is set to your local repository folder
 - run `include("publication-code.jl")`
 
+You will obtain the below figures.
 
 ### Figure 1
 
