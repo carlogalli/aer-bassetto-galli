@@ -3,7 +3,8 @@
 
 # Define directory, load packages
 using Pkg
-Pkg.activate(".")
+cdir = pwd()
+Pkg.activate(cdir)
 Pkg.instantiate()
 using Distributions, PyPlot, Roots
 
@@ -127,7 +128,7 @@ title(L"q_1(z_1)", fontsize=fs)
 gca()["title"]["set_y"](1.02)
 
 # Save figure
-savefig("fig1.pdf", orientation="landscape")
+savefig("fig1.png", orientation="landscape")
 
 
 
@@ -183,7 +184,7 @@ xlim(0,1.3)
 legend(loc=2, fontsize=fs)
 
 # Save figure
-savefig("fig2.pdf", orientation="landscape")
+savefig("fig2.png", orientation="landscape")
 
 ## 
 #= Paper Figure 3: plot endogenous price function with multiple crossings changing β_2 =#
@@ -209,4 +210,4 @@ PyPlot.yticks([m.δ,1], (L"\delta",1), fontsize=15)
 legend()
 
 # Save figure
-savefig("fig3.pdf", orientation="landscape")
+savefig("fig3.png", orientation="landscape")

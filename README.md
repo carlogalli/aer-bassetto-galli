@@ -14,7 +14,19 @@ To run the code
 
 ### Figure 1
 
-![Figure 1](fig1.pdf)
+![Figure 1](fig1.png)
+
+### Figure 2
+
+![Figure 2](fig2.png)
+
+
+### Figure 3
+
+![Figure 3](fig3.png)
+
+
+
 
 
 
